@@ -1,6 +1,6 @@
 ﻿namespace EclesiaAPI.Model
 {
-    public class Members
+    public class Member
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -17,6 +17,8 @@
         public string Street { get; set; }
         public string Neighborhood { get; set; }
 
+        public List<Contribution> Contributions { get; set; }
+        public Position Position { get; set; }
 
     }
 }
